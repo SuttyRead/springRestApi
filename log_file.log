@@ -1,0 +1,277 @@
+2019-01-10 10:06:03.402  INFO 5525 --- [main] c.u.s.s.SpringRestApiApplication         : Starting SpringRestApiApplication on suttyread-lx with PID 5525 (/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes started by suttyread in /home/NIX/suttyread/IdeaProjects/springRestApi)
+2019-01-10 10:06:03.406  INFO 5525 --- [main] c.u.s.s.SpringRestApiApplication         : No active profile set, falling back to default profiles: default
+2019-01-10 10:06:03.951  INFO 5525 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-10 10:06:03.999  INFO 5525 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 3 repository interfaces.
+2019-01-10 10:06:04.194  INFO 5525 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1fc2107e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 10:06:04.353  INFO 5525 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-01-10 10:06:04.365  INFO 5525 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-10 10:06:04.365  INFO 5525 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-10 10:06:04.369  INFO 5525 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-10 10:06:04.419  INFO 5525 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-10 10:06:04.420  INFO 5525 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 980 ms
+2019-01-10 10:06:04.520  INFO 5525 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-10 10:06:04.582  INFO 5525 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-10 10:06:04.668  INFO 5525 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 10:06:04.700  INFO 5525 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-10 10:06:04.701  INFO 5525 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-10 10:06:04.760  INFO 5525 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-10 10:06:04.823  INFO 5525 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-10 10:06:05.182  INFO 5525 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes/import.sql)'
+2019-01-10 10:06:05.187  INFO 5525 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 10:06:05.542  INFO 5525 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ddc67d0, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c635edc, org.springframework.security.web.header.HeaderWriterFilter@71166348, org.springframework.security.web.authentication.logout.LogoutFilter@7eaa2bc6, com.ua.sutty.springRestApi.security.filters.TokenAuthFilter@56da52a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45bbc52f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@798cf6d2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7767bd4e, org.springframework.security.web.session.SessionManagementFilter@aa1bb14, org.springframework.security.web.access.ExceptionTranslationFilter@2f8c4fae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27da994b]
+2019-01-10 10:06:05.638  INFO 5525 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 10:06:05.659  WARN 5525 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 10:06:05.768  INFO 5525 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-10 10:06:05.770  INFO 5525 --- [main] c.u.s.s.SpringRestApiApplication         : Started SpringRestApiApplication in 2.891 seconds (JVM running for 3.307)
+2019-01-10 10:06:13.414  INFO 5525 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 10:06:13.414  INFO 5525 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-10 10:06:13.428  INFO 5525 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-01-10 10:06:36.086  INFO 5525 --- [http-nio-8090-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 11:24:08.691  INFO 5525 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 11:24:08.693  INFO 5525 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 11:24:08.695  INFO 5525 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-10 11:24:08.699  INFO 5525 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-10 12:15:52.968  INFO 16979 --- [main] c.u.s.s.SpringRestApiApplication         : Starting SpringRestApiApplication on suttyread-lx with PID 16979 (/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes started by suttyread in /home/NIX/suttyread/IdeaProjects/springRestApi)
+2019-01-10 12:15:52.970  INFO 16979 --- [main] c.u.s.s.SpringRestApiApplication         : No active profile set, falling back to default profiles: default
+2019-01-10 12:15:53.743  INFO 16979 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-10 12:15:53.797  INFO 16979 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 3 repository interfaces.
+2019-01-10 12:15:54.044  INFO 16979 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9092473a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 12:15:54.214  INFO 16979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-01-10 12:15:54.226  INFO 16979 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-10 12:15:54.226  INFO 16979 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-10 12:15:54.230  INFO 16979 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-10 12:15:54.285  INFO 16979 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-10 12:15:54.285  INFO 16979 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1274 ms
+2019-01-10 12:15:54.393  INFO 16979 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-10 12:15:54.461  INFO 16979 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-10 12:15:54.555  INFO 16979 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 12:15:54.588  INFO 16979 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-10 12:15:54.589  INFO 16979 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-10 12:15:54.655  INFO 16979 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-10 12:15:54.723  INFO 16979 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-10 12:15:55.103  INFO 16979 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes/import.sql)'
+2019-01-10 12:15:55.109  INFO 16979 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 12:15:55.500  INFO 16979 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70fede7d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2abc55c4, org.springframework.security.web.header.HeaderWriterFilter@5866731, org.springframework.security.web.authentication.logout.LogoutFilter@6d874695, com.ua.sutty.springRestApi.security.filters.TokenAuthFilter@7a18e8d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71c0b742, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19cdc217, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36510e73, org.springframework.security.web.session.SessionManagementFilter@39f0c343, org.springframework.security.web.access.ExceptionTranslationFilter@4f811029, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38811103]
+2019-01-10 12:15:55.595  INFO 16979 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 12:15:55.617  WARN 16979 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 12:15:55.745  INFO 16979 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-10 12:15:55.747  INFO 16979 --- [main] c.u.s.s.SpringRestApiApplication         : Started SpringRestApiApplication in 3.039 seconds (JVM running for 3.4)
+2019-01-10 12:16:02.248  INFO 16979 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 12:16:02.249  INFO 16979 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-10 12:16:02.258  INFO 16979 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-01-10 12:16:27.512  INFO 16979 --- [http-nio-8090-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 12:55:25.059  INFO 16979 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 12:55:25.060  INFO 16979 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 12:55:25.062  INFO 16979 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-10 12:55:25.072  INFO 16979 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-10 12:55:26.943  INFO 20942 --- [main] c.u.s.s.SpringRestApiApplication         : Starting SpringRestApiApplication on suttyread-lx with PID 20942 (/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes started by suttyread in /home/NIX/suttyread/IdeaProjects/springRestApi)
+2019-01-10 12:55:26.948  INFO 20942 --- [main] c.u.s.s.SpringRestApiApplication         : No active profile set, falling back to default profiles: default
+2019-01-10 12:55:27.495  INFO 20942 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-10 12:55:27.544  INFO 20942 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 3 repository interfaces.
+2019-01-10 12:55:27.758  INFO 20942 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ceac43a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 12:55:27.922  INFO 20942 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-01-10 12:55:27.933  INFO 20942 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-10 12:55:27.933  INFO 20942 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-10 12:55:27.937  INFO 20942 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-10 12:55:27.982  INFO 20942 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-10 12:55:27.982  INFO 20942 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 999 ms
+2019-01-10 12:55:28.071  INFO 20942 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-10 12:55:28.133  INFO 20942 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-10 12:55:28.218  INFO 20942 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 12:55:28.247  INFO 20942 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-10 12:55:28.248  INFO 20942 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-10 12:55:28.307  INFO 20942 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-10 12:55:28.369  INFO 20942 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-10 12:55:28.713  INFO 20942 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes/import.sql)'
+2019-01-10 12:55:28.717  INFO 20942 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 12:55:29.071  INFO 20942 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@96abc76, org.springframework.security.web.context.SecurityContextPersistenceFilter@47fb7ec9, org.springframework.security.web.header.HeaderWriterFilter@19ad75e5, org.springframework.security.web.authentication.logout.LogoutFilter@55d8c2c4, com.ua.sutty.springRestApi.security.filters.TokenAuthFilter@77ee25f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4703c998, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23121d14, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d69d288, org.springframework.security.web.session.SessionManagementFilter@5b066c33, org.springframework.security.web.access.ExceptionTranslationFilter@25ce435, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d1c933]
+2019-01-10 12:55:29.180  INFO 20942 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 12:55:29.200  WARN 20942 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 12:55:29.306  INFO 20942 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-10 12:55:29.307  INFO 20942 --- [main] c.u.s.s.SpringRestApiApplication         : Started SpringRestApiApplication in 2.573 seconds (JVM running for 2.915)
+2019-01-10 12:55:37.088  INFO 20942 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 12:55:37.089  INFO 20942 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-10 12:55:37.093  INFO 20942 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-01-10 12:55:54.807  INFO 20942 --- [http-nio-8090-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 12:58:28.954  WARN 20942 --- [http-nio-8090-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/octet-stream' not supported]
+2019-01-10 13:21:46.378  INFO 20942 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 13:21:46.379  INFO 20942 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 13:21:46.382  INFO 20942 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-10 13:21:46.398  INFO 20942 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-10 13:21:49.156  INFO 23574 --- [main] c.u.s.s.SpringRestApiApplication         : Starting SpringRestApiApplication on suttyread-lx with PID 23574 (/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes started by suttyread in /home/NIX/suttyread/IdeaProjects/springRestApi)
+2019-01-10 13:21:49.158  INFO 23574 --- [main] c.u.s.s.SpringRestApiApplication         : No active profile set, falling back to default profiles: default
+2019-01-10 13:21:49.640  INFO 23574 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-10 13:21:49.683  INFO 23574 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 3 repository interfaces.
+2019-01-10 13:21:49.875  INFO 23574 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$14870bc1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 13:21:50.031  INFO 23574 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-01-10 13:21:50.043  INFO 23574 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-10 13:21:50.043  INFO 23574 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-10 13:21:50.047  INFO 23574 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-10 13:21:50.093  INFO 23574 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-10 13:21:50.093  INFO 23574 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 904 ms
+2019-01-10 13:21:50.193  INFO 23574 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-10 13:21:50.256  INFO 23574 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-10 13:21:50.332  INFO 23574 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 13:21:50.362  INFO 23574 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-10 13:21:50.363  INFO 23574 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-10 13:21:50.422  INFO 23574 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-10 13:21:50.484  INFO 23574 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-10 13:21:50.835  INFO 23574 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes/import.sql)'
+2019-01-10 13:21:50.840  INFO 23574 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 13:21:51.191  INFO 23574 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66756662, org.springframework.security.web.context.SecurityContextPersistenceFilter@53a301f3, org.springframework.security.web.header.HeaderWriterFilter@1be52861, org.springframework.security.web.authentication.logout.LogoutFilter@6f15f52a, com.ua.sutty.springRestApi.security.filters.TokenAuthFilter@51751e5f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62cf6a84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47569167, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d14e99e, org.springframework.security.web.session.SessionManagementFilter@6dae70f9, org.springframework.security.web.access.ExceptionTranslationFilter@649b5891, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d25913]
+2019-01-10 13:21:51.281  INFO 23574 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 13:21:51.301  WARN 23574 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 13:21:51.406  INFO 23574 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-10 13:21:51.408  INFO 23574 --- [main] c.u.s.s.SpringRestApiApplication         : Started SpringRestApiApplication in 2.524 seconds (JVM running for 2.886)
+2019-01-10 13:26:03.338  INFO 23574 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 13:26:03.338  INFO 23574 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-10 13:26:03.346  INFO 23574 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-01-10 13:26:03.413  INFO 23574 --- [http-nio-8090-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 14:01:41.173  INFO 23574 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:01:41.174  INFO 23574 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 14:01:41.176  INFO 23574 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-10 14:01:41.179  INFO 23574 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-10 14:01:44.124  INFO 27434 --- [main] c.u.s.s.SpringRestApiApplication         : Starting SpringRestApiApplication on suttyread-lx with PID 27434 (/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes started by suttyread in /home/NIX/suttyread/IdeaProjects/springRestApi)
+2019-01-10 14:01:44.126  INFO 27434 --- [main] c.u.s.s.SpringRestApiApplication         : No active profile set, falling back to default profiles: default
+2019-01-10 14:01:44.683  INFO 27434 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-10 14:01:44.740  INFO 27434 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 3 repository interfaces.
+2019-01-10 14:01:44.955  INFO 27434 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$67c68ef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 14:01:45.117  INFO 27434 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-01-10 14:01:45.128  INFO 27434 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-10 14:01:45.128  INFO 27434 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-10 14:01:45.132  INFO 27434 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-10 14:01:45.182  INFO 27434 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-10 14:01:45.182  INFO 27434 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 997 ms
+2019-01-10 14:01:45.298  INFO 27434 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-10 14:01:45.364  INFO 27434 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-10 14:01:45.434  INFO 27434 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 14:01:45.464  INFO 27434 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-10 14:01:45.465  INFO 27434 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-10 14:01:45.526  INFO 27434 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-10 14:01:45.590  INFO 27434 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-10 14:01:45.936  INFO 27434 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes/import.sql)'
+2019-01-10 14:01:45.941  INFO 27434 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 14:01:46.290  INFO 27434 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76a9a009, org.springframework.security.web.context.SecurityContextPersistenceFilter@56fda064, org.springframework.security.web.header.HeaderWriterFilter@935493d, org.springframework.security.web.authentication.logout.LogoutFilter@1e495414, com.ua.sutty.springRestApi.security.filters.TokenAuthFilter@2f879bab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@482f7af0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fde9469, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9785903, org.springframework.security.web.session.SessionManagementFilter@3a6e9856, org.springframework.security.web.access.ExceptionTranslationFilter@11c581a0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5520f675]
+2019-01-10 14:01:46.377  INFO 27434 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 14:01:46.397  WARN 27434 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 14:01:46.525  INFO 27434 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-10 14:01:46.527  INFO 27434 --- [main] c.u.s.s.SpringRestApiApplication         : Started SpringRestApiApplication in 2.657 seconds (JVM running for 3.043)
+2019-01-10 14:01:49.187  INFO 27434 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 14:01:49.188  INFO 27434 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-10 14:01:49.193  INFO 27434 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-01-10 14:03:58.206  INFO 27434 --- [http-nio-8090-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 15:14:55.359  INFO 27434 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 15:14:55.361  INFO 27434 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 15:14:55.363  INFO 27434 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-10 15:14:55.381  INFO 27434 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-10 15:14:58.477  INFO 30807 --- [main] c.u.s.s.SpringRestApiApplication         : Starting SpringRestApiApplication on suttyread-lx with PID 30807 (/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes started by suttyread in /home/NIX/suttyread/IdeaProjects/springRestApi)
+2019-01-10 15:14:58.479  INFO 30807 --- [main] c.u.s.s.SpringRestApiApplication         : No active profile set, falling back to default profiles: default
+2019-01-10 15:14:59.021  INFO 30807 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-10 15:14:59.066  INFO 30807 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41ms. Found 3 repository interfaces.
+2019-01-10 15:14:59.278  INFO 30807 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a93af6ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 15:14:59.444  INFO 30807 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-01-10 15:14:59.456  INFO 30807 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-10 15:14:59.456  INFO 30807 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-10 15:14:59.460  INFO 30807 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-10 15:14:59.515  INFO 30807 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-10 15:14:59.515  INFO 30807 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1000 ms
+2019-01-10 15:14:59.602  INFO 30807 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-10 15:14:59.664  INFO 30807 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-10 15:14:59.731  INFO 30807 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 15:14:59.762  INFO 30807 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-10 15:14:59.762  INFO 30807 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-10 15:14:59.821  INFO 30807 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-10 15:14:59.884  INFO 30807 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-10 15:15:00.246  INFO 30807 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes/import.sql)'
+2019-01-10 15:15:00.251  INFO 30807 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 15:15:00.585  INFO 30807 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3360283, org.springframework.security.web.context.SecurityContextPersistenceFilter@3be3e76c, org.springframework.security.web.header.HeaderWriterFilter@42cf6349, org.springframework.security.web.authentication.logout.LogoutFilter@5fb5ad40, com.ua.sutty.springRestApi.security.filters.TokenAuthFilter@2eb79cbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10ed037a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a8a551e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77aea, org.springframework.security.web.session.SessionManagementFilter@20bb85b4, org.springframework.security.web.access.ExceptionTranslationFilter@7ec3a8bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6744707b]
+2019-01-10 15:15:00.681  INFO 30807 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 15:15:00.701  WARN 30807 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 15:15:00.812  INFO 30807 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-10 15:15:00.814  INFO 30807 --- [main] c.u.s.s.SpringRestApiApplication         : Started SpringRestApiApplication in 2.563 seconds (JVM running for 3.025)
+2019-01-10 15:15:04.677  INFO 30807 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 15:15:04.686  INFO 30807 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-10 15:15:04.704  INFO 30807 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-01-10 15:15:12.446  INFO 30807 --- [http-nio-8090-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 15:23:38.545  INFO 30807 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 15:23:38.548  INFO 30807 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 15:23:38.550  INFO 30807 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-10 15:23:38.555  INFO 30807 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-10 15:23:41.112  INFO 31738 --- [main] c.u.s.s.SpringRestApiApplication         : Starting SpringRestApiApplication on suttyread-lx with PID 31738 (/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes started by suttyread in /home/NIX/suttyread/IdeaProjects/springRestApi)
+2019-01-10 15:23:41.114  INFO 31738 --- [main] c.u.s.s.SpringRestApiApplication         : No active profile set, falling back to default profiles: default
+2019-01-10 15:23:41.628  INFO 31738 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-10 15:23:41.681  INFO 31738 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 3 repository interfaces.
+2019-01-10 15:23:41.892  INFO 31738 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b9e64e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 15:23:42.052  INFO 31738 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-01-10 15:23:42.064  INFO 31738 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-10 15:23:42.064  INFO 31738 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-10 15:23:42.068  INFO 31738 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-10 15:23:42.115  INFO 31738 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-10 15:23:42.115  INFO 31738 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 966 ms
+2019-01-10 15:23:42.211  INFO 31738 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-10 15:23:42.273  INFO 31738 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-10 15:23:42.341  INFO 31738 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 15:23:42.369  INFO 31738 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-10 15:23:42.370  INFO 31738 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-10 15:23:42.430  INFO 31738 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-10 15:23:42.493  INFO 31738 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-10 15:23:42.839  INFO 31738 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes/import.sql)'
+2019-01-10 15:23:42.844  INFO 31738 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 15:23:43.196  INFO 31738 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@433ef204, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a8a551e, org.springframework.security.web.header.HeaderWriterFilter@79add732, org.springframework.security.web.authentication.logout.LogoutFilter@53a301f3, com.ua.sutty.springRestApi.security.filters.TokenAuthFilter@7923f5b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53982523, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@649b5891, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4dd2ef54, org.springframework.security.web.session.SessionManagementFilter@4245bf68, org.springframework.security.web.access.ExceptionTranslationFilter@6d874695, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77aea]
+2019-01-10 15:23:43.286  INFO 31738 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 15:23:43.306  WARN 31738 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 15:23:43.412  INFO 31738 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-10 15:23:43.414  INFO 31738 --- [main] c.u.s.s.SpringRestApiApplication         : Started SpringRestApiApplication in 2.562 seconds (JVM running for 2.877)
+2019-01-10 15:23:47.635  INFO 31738 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 15:23:47.635  INFO 31738 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-10 15:23:47.639  INFO 31738 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-01-10 15:23:47.680  INFO 31738 --- [http-nio-8090-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-01-10 15:26:20.187  INFO 31738 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-10 15:26:20.188  INFO 31738 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 15:26:20.190  INFO 31738 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-01-10 15:26:20.192  INFO 31738 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-01-10 15:26:22.703  INFO 32141 --- [main] c.u.s.s.SpringRestApiApplication         : Starting SpringRestApiApplication on suttyread-lx with PID 32141 (/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes started by suttyread in /home/NIX/suttyread/IdeaProjects/springRestApi)
+2019-01-10 15:26:22.705  INFO 32141 --- [main] c.u.s.s.SpringRestApiApplication         : No active profile set, falling back to default profiles: default
+2019-01-10 15:26:23.240  INFO 32141 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-10 15:26:23.288  INFO 32141 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 3 repository interfaces.
+2019-01-10 15:26:23.499  INFO 32141 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20a4b686] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-10 15:26:23.662  INFO 32141 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2019-01-10 15:26:23.676  INFO 32141 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-10 15:26:23.676  INFO 32141 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-10 15:26:23.680  INFO 32141 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-01-10 15:26:23.726  INFO 32141 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-10 15:26:23.726  INFO 32141 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1000 ms
+2019-01-10 15:26:23.820  INFO 32141 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-01-10 15:26:23.921  INFO 32141 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-01-10 15:26:23.950  INFO 32141 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-01-10 15:26:23.979  INFO 32141 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-01-10 15:26:23.980  INFO 32141 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-01-10 15:26:24.039  INFO 32141 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-01-10 15:26:24.101  INFO 32141 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-01-10 15:26:24.448  INFO 32141 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'ScriptSourceInputFromUrl(file:/home/NIX/suttyread/IdeaProjects/springRestApi/target/classes/import.sql)'
+2019-01-10 15:26:24.453  INFO 32141 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-10 15:26:24.803  INFO 32141 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**'], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3404e5c4, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d237460, org.springframework.security.web.header.HeaderWriterFilter@ef86c72, org.springframework.security.web.authentication.logout.LogoutFilter@2a99ca99, com.ua.sutty.springRestApi.security.filters.TokenAuthFilter@6edaa77a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b3a01d8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34009349, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47569167, org.springframework.security.web.session.SessionManagementFilter@4eb9ae4d, org.springframework.security.web.access.ExceptionTranslationFilter@35563e4c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53a301f3]
+2019-01-10 15:26:24.893  INFO 32141 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-10 15:26:24.913  WARN 32141 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-01-10 15:26:25.018  INFO 32141 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2019-01-10 15:26:25.020  INFO 32141 --- [main] c.u.s.s.SpringRestApiApplication         : Started SpringRestApiApplication in 2.533 seconds (JVM running for 2.844)
+2019-01-10 15:26:28.899  INFO 32141 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-10 15:26:28.899  INFO 32141 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-10 15:26:28.904  INFO 32141 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-01-10 15:26:28.982  INFO 32141 --- [http-nio-8090-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
